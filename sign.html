@@ -46,17 +46,15 @@
         color: #333;
     }
 
-    .nav-links {
-        display: flex;
-        gap: 10px;
+    .nav-links a {
+    text-decoration: none;
     }
 
     .nav-btn {
+        display: inline-block;
         padding: 8px 16px;
         border-radius: 8px;
-        border: none;
         font-size: 14px;
-        cursor: pointer;
         font-weight: 500;
         transition: 0.2s ease;
     }
@@ -154,9 +152,9 @@
     <nav class="navbar">
         <h1>Intramurals SY 2025-2026</h1>
     <div class="nav-links">
-        <button class="nav-btn signup" href="sign.html">Sign Up</button>
-        <button class="nav-btn team" href="index.html">Team Checker</button>
-        <button class="nav-btn players" href="players.html">Players</button>
+        <a href="sign.html" class="nav-btn signup">Sign Up</a>
+        <a href="index.html" class="nav-btn team">Team Checker</a>
+        <a href="players.html" class="nav-btn players">Players</a>
     </div>
     </nav>
 
