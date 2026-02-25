@@ -26,7 +26,7 @@ players = [
 def show_players(event):
     output = document.getElementById("player-list")
     
-    output.innerHTML = ""   # clear first
+    output.innerHTML = "" 
     
     for i in range(len(players)):
         output.innerHTML += f"{i+1}) {players[i]}<br>"
